@@ -1,0 +1,175 @@
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+  body {font-size: 16px;}
+  .inner {
+    width: 100%;
+    padding: 0;
+  }
+  #container section {
+    padding: 25px 0;
+  }
+    
+  h2 {
+    font-size: 64px;
+    line-height: 1.5;
+  }
+  .h2text {
+    font-size: 24px;
+    text-align: center;
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+  h3 {
+    font-size: 32px;margin-top: 30px
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  h6 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .text {
+    font-size: 16px;
+  }
+  Header {
+    width: 100%;
+    height: auto;
+  }
+  header .top {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    
+      
+      
+      
+  }
+  header .top ul li {
+    display: inline-block;
+    float: none;
+  }
+  header .logo {
+    width: 160px;
+    height: 50px;
+    margin-left: 10px;
+  }
+  header .logo > a {
+    font-size: 16px;
+  }
+  header .search {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  #mainVisual {
+    margin-top: 70px;
+    height: auto;
+  }
+  #mainVisual .mainPic {background-image: none;height: auto;}
+
+  #mainVisual .main_title {
+    position: relative;
+    transform: none;
+    background-size: contain;
+    margin-top: 20px;
+  }
+  #mainVisual .main_title h2 {
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+  }
+  #mainVisual .main_title .title_eng,
+  #mainVisual .main_title .title_chn {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+    
+  #mainVisual .main_title video {
+    width: 100%;align-items: center;
+    }
+  #mainVisual .desc {
+    font-size: 14px;
+    height: auto;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 10px;
+  }
+    
+  #container .icon ul li {
+    width: calc(100%/4);
+    height: 80px;
+    font-size: 18px;
+  }
+  #container .icon ul li p {text-align: center;padding-top:70px;}
+
+#container .intro {
+margin: 0 10px;
+}
+#container .intro .title_group > p {
+font-size: 16px;
+}
+#container .intro .do h4 {
+font-size: 16px;
+}
+#container .intro .do li {
+font-size: 16px;
+line-height: 1.5;
+}
+#container .intro .link {
+margin: 16px 0 40px 0;
+}
+#container .intro .link > h4 {
+font-size: 16px;
+margin-bottom: 24px;
+}
+
+#card .inner {
+padding: 60px 30px 60px 30px;
+}
+#card .card_list li {
+width: calc(40%);
+margin-bottom: 40px;
+margin-right: 20px;
+}
+.flip-card {
+width: 200px;
+height: 300px;
+}
+
+#search {
+margin-top: 30px;
+margin-bottom: 60px;
+}
+#search .contents {
+margin-top: 30px;
+}
+#search .contents .left {
+float: none;
+width: 90%;
+margin-bottom: 20px;
+}
+#search .contents .left .map:hover {
+border: none;
+}
+#search .contents .right {
+float: none;
+width: 90%;
+}
+#search ul h6 {
+margin-top: 40px;margin-bottom: 20px;
+}
+#search .sel1 select {
+width: 100%;
+}
+#search .text input[type="text"] {
+width: 90%;
+}
+
